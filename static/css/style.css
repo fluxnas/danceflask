@@ -1,0 +1,123 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+.nav-link { 
+  color: white;
+  weight: bold;
+}
+
+.hero-section {
+  background-image: url("/static/images/background.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.hero-section h1 {
+  font-size: 2em;
+}
+
+@media screen and (max-width: 992px) {
+.hero-section {
+background-image: url("/static/images/galaxy.jpg")
+}
+.hero-section h2 {
+font-size: 1em;
+}
+}
+
+.hero-section h1 {
+  font-size: 5em;
+  font-wefont: size;; 
+}
+
+h1, h2 {
+  color: white;
+  font-family: arial;
+  }
+
+h1 {
+  font-weight: bolder;
+}
+
+h2 {
+  font-weight: lighter;
+}
+
+p {
+  font-weight: lighter;
+}
+
+.card-img-top{
+  height: 300px;
+  border-radius: 30px;
+}
+
+.section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.section2 {
+  padding: 3%;
+}
+
+.main {
+  padding-bottom: 5%;
+  padding-right: 5%;
+  padding-left: 5%;
+}
+
+.barre-colore {
+  height: 20px;
+  background-color: #370028;
+}
+
+.barre-colore-2 {
+  height: 80px;
+  background-color: #370028;
+  padding: 20px;
+  text-align: center;
+}
+
+.marge {
+  height: 70px;
+}
+
+
+/* page projet */
+
+.membre-projet {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  margin: 2%;
+}
+
+.row-projet-1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  margin-left: 8%;
+  margin-right: 8%;
+}
+
+.description-membre-projet {
+  margin-left: 4%;
+}
+
+.membre-projet img {
+  border-radius: 20px;
+  box-shadow: 10px 5px 5px rgb(0 0 0 / 0.2);
+}
